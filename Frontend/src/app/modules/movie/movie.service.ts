@@ -3,7 +3,7 @@ import {map}  from 'rxjs/operators';
 import {retry} from 'rxjs/operators';
 import {HttpClient} from '@angular/common/http';
 import { Movie} from './movie';
-import {Observable} from 'rxjs/observable';
+import {Observable} from 'rxjs/Observable';
 
 @Injectable({
   providedIn: 'root'
@@ -18,7 +18,8 @@ export class MovieService {
 
   constructor(private http: HttpClient) {
     this.apiKey = "api_key=58ca98304c584a5cb247b67e8276c76d";
-    this.tmdbEndpoint ="https://api.themoviedb.org/3/movie";
+    this.tmdbEndpoint ="https://api.themoviedb.org/3";
+    
     this.imagePrefix ="https://image.tmdb.org/t/p/w500/";
     this.watchListEndPoint="http://localhost:3000/watchList"
     this.springEndPoint="http://localhost:8888/api/movie";
@@ -27,7 +28,7 @@ export class MovieService {
 
    getMovies(type:string , page:number=1):Observable<Array<Movie>>
    {
-       const endpoint=`${this.tmdbEndpoint}/${type}?${this.apiKey}&page=${page}`;
+       const endpoint=`${this.tmdbEndpoint}/movie/${type}?${this.apiKey}&page=${page}`;
        return this.http.get(endpoint).pipe(
         retry(3),
         map(this.pickMovieResults),
