@@ -1,0 +1,4 @@
+<div class="movie-container">
+  <movie-thumbnail *ngFor="let movie of movies" [movie]="movie" [useWatchListApi]="useWatchListApi"
+  (addMovie)="addToWatchList($event)" (deleteMovie)="deleteFromWatchList($event)"></movie-thumbnail>
+</div>

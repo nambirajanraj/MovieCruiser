@@ -1,0 +1,160 @@
+{
+  "watchList": [
+    {
+      "vote_count": 206,
+      "id": 456740,
+      "video": false,
+      "vote_average": 5.2,
+      "title": "Hellboy",
+      "popularity": 420.975,
+      "poster_path": "https://image.tmdb.org/t/p/w500//mpc7oxbiPQ0ICn0EEnaSOUf5Ag5.jpg",
+      "original_language": "en",
+      "original_title": "Hellboy",
+      "genre_ids": [
+        28,
+        12,
+        14
+      ],
+      "backdrop_path": "/5BkSkNtfrnTuKOtTaZhl8avn4wU.jpg",
+      "adult": false,
+      "overview": "Hellboy comes to England, where he must defeat Nimue, Merlin's consort and the Blood Queen. But their battle will bring about the end of the world, a fate he desperately tries to turn away.",
+      "release_date": "2019-04-10"
+    },
+    {
+      "vote_count": 0,
+      "id": 299534,
+      "video": false,
+      "vote_average": 0,
+      "title": "Avengers: Endgame",
+      "popularity": 301.025,
+      "poster_path": "https://image.tmdb.org/t/p/w500//or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+      "original_language": "en",
+      "original_title": "Avengers: Endgame",
+      "genre_ids": [
+        12,
+        878,
+        28
+      ],
+      "backdrop_path": "/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
+      "adult": false,
+      "overview": "After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos' actions and restore order to the universe once and for all, no matter what consequences may be in store.",
+      "release_date": "2019-04-24"
+    },
+    {
+      "vote_count": 1120,
+      "id": 287947,
+      "video": false,
+      "vote_average": 7.2,
+      "title": "Shazam!",
+      "popularity": 344.083,
+      "poster_path": "https://image.tmdb.org/t/p/w500//xnopI5Xtky18MPhK40cZAGAOVeV.jpg",
+      "original_language": "en",
+      "original_title": "Shazam!",
+      "genre_ids": [
+        35,
+        12,
+        14
+      ],
+      "backdrop_path": "/bi4jh0Kt0uuZGsGJoUUfqmbrjQg.jpg",
+      "adult": false,
+      "overview": "A boy is given the ability to become an adult superhero in times of need with a single magic word.",
+      "release_date": "2019-03-23"
+    },
+    {
+      "vote_count": 12783,
+      "id": 278,
+      "video": false,
+      "vote_average": 8.7,
+      "title": "The Shawshank Redemption",
+      "popularity": 32.381,
+      "poster_path": "https://image.tmdb.org/t/p/w500//9O7gLzmreU0nGkIB6K3BsJbzvNv.jpg",
+      "original_language": "en",
+      "original_title": "The Shawshank Redemption",
+      "genre_ids": [
+        18,
+        80
+      ],
+      "backdrop_path": "/j9XKiZrVeViAixVRzCta7h1VU9W.jpg",
+      "adult": false,
+      "overview": "Framed in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.",
+      "release_date": "1994-09-23"
+    },
+    {
+      "vote_count": 423,
+      "id": 537915,
+      "video": false,
+      "vote_average": 6.5,
+      "title": "After",
+      "popularity": 330.327,
+      "poster_path": "https://image.tmdb.org/t/p/w500//u3B2YKUjWABcxXZ6Nm9h10hLUbh.jpg",
+      "original_language": "en",
+      "original_title": "After",
+      "genre_ids": [
+        18,
+        10749
+      ],
+      "backdrop_path": "/8lESY7UGpOsbL2caib9Qe4bOebF.jpg",
+      "adult": false,
+      "overview": "A young woman falls for a guy with a dark secret and the two embark on a rocky relationship.",
+      "release_date": "2019-04-11"
+    },
+    {
+      "vote_count": 4031,
+      "id": 299537,
+      "video": false,
+      "vote_average": 7.1,
+      "title": "Captain Marvel",
+      "popularity": 322.559,
+      "poster_path": "https://image.tmdb.org/t/p/w500//AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg",
+      "original_language": "en",
+      "original_title": "Captain Marvel",
+      "genre_ids": [
+        28,
+        12,
+        878
+      ],
+      "backdrop_path": "/w2PMyoyLU22YvrGK3smVM9fW1jj.jpg",
+      "adult": false,
+      "overview": "The story follows Carol Danvers as she becomes one of the universe’s most powerful heroes when Earth is caught in the middle of a galactic war between two alien races. Set in the 1990s, Captain Marvel is an all-new adventure from a previously unseen period in the history of the Marvel Cinematic Universe.",
+      "release_date": "2019-03-06"
+    },
+    {
+      "vote_count": 1117,
+      "id": 458723,
+      "video": false,
+      "vote_average": 7.2,
+      "title": "Us",
+      "popularity": 113.813,
+      "poster_path": "https://image.tmdb.org/t/p/w500//ux2dU1jQ2ACIMShzB3yP93Udpzc.jpg",
+      "original_language": "en",
+      "original_title": "Us",
+      "genre_ids": [
+        53,
+        27
+      ],
+      "backdrop_path": "/jNUCddkM1fjYcFIcEwFjc7s2H4V.jpg",
+      "adult": false,
+      "overview": "Husband and wife Gabe and Adelaide Wilson take their kids to their beach house expecting to unplug and unwind with friends. But as night descends, their serenity turns to tension and chaos when some shocking visitors arrive uninvited.",
+      "release_date": "2019-03-14"
+    },
+    {
+      "vote_count": 412,
+      "id": 40096,
+      "video": false,
+      "vote_average": 8.4,
+      "title": "A Dog's Will",
+      "popularity": 6.788,
+      "poster_path": "https://image.tmdb.org/t/p/w500//uHEmM49YphluJnGep8Ef1qwD2QX.jpg",
+      "original_language": "pt",
+      "original_title": "O Auto da Compadecida",
+      "genre_ids": [
+        12,
+        35
+      ],
+      "backdrop_path": "/alQqTpmEkxSLgajfEYTsTH6nAKB.jpg",
+      "adult": false,
+      "overview": "The lively João Grilo and the sly Chicó are poor guys living in the hinterland who cheat a bunch of people in a small Northeast Brazil town. But when they die, they have to be judged by Christ, the Devil and the Virgin Mary, before they are admitted to paradise.",
+      "release_date": "2000-09-15"
+    }
+  ]
+}
