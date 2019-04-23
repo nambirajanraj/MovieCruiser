@@ -37,16 +37,16 @@ public class MovieRepositoryTest {
 	
 	@Test
 	public void testSaveMovie() throws Exception {
-		movieRepository.save(new Movie(1,"superman", "good movie", "www.abc.com", "2015-03-23"));
+		movieRepository.save(new Movie(1,"superman", "good movie", "www.abc.com", "2015-03-23", "overview"));
 		final Movie movie = movieRepository.getOne(1);
 		assertThat(movie.getId()).isEqualTo(1);
 	}
 	
 	@Test
 	public void testUpdateMovie() throws Exception {
-		movieRepository.save(new Movie(1, "superman", "good movie", "www.abc.com", "2015-03-23"));
+		movieRepository.save(new Movie(1, "superman", "good movie", "www.abc.com", "2015-03-23", "overview"));
 		final Movie movie = movieRepository.getOne(1);
-		assertEquals("superman", movie.getName());
+		assertEquals("superman", movie.getTitle());
 		movie.setComments("Hi");
 		movieRepository.save(movie);
 		final Movie tempMovie = movieRepository.getOne(1);
@@ -55,26 +55,26 @@ public class MovieRepositoryTest {
 	
 	@Test
 	public void testDeleteMovie() throws Exception {
-		movieRepository.save(new Movie(1, "superman", "good movie", "www.abc.com", "2015-03-23"));
+		movieRepository.save(new Movie(1, "superman", "good movie", "www.abc.com", "2015-03-23", "overview"));
 		final Movie movie = movieRepository.getOne(1);
-		assertEquals("superman", movie.getName());
+		assertEquals("superman", movie.getTitle());
 		movieRepository.delete(movie);
 		assertEquals(Optional.empty(), movieRepository.findById(1));
 	}
 	
 	@Test
 	public void testGetMovie() throws Exception {
-		movieRepository.save(new Movie(1, "superman", "good movie", "www.abc.com", "2015-03-23"));
+		movieRepository.save(new Movie(1, "superman", "good movie", "www.abc.com", "2015-03-23", "overview"));
 		final Movie movie = movieRepository.getOne(1);
-		assertEquals("superman", movie.getName());
+		assertEquals("superman", movie.getTitle());
 	}
 	
 	@Test
 	public void testGetMyMovies() throws Exception {
-		movieRepository.save(new Movie(1, "superman", "good movie", "www.abc.com", "2015-03-23"));
-		movieRepository.save(new Movie(2, "superman-1", "good movie", "www.abc.com", "2015-03-23"));
+		movieRepository.save(new Movie(1, "superman", "good movie", "www.abc.com", "2015-03-23", "overview"));
+		movieRepository.save(new Movie(2, "superman-1", "good movie", "www.abc.com", "2015-03-23", "overview"));
 		final List<Movie> movies = movieRepository.findAll();
-		assertEquals("superman", movies.get(0).getName());
+		assertEquals("superman", movies.get(0).getTitle());
 	}
 
 }

@@ -42,7 +42,7 @@ public class MovieServiceImplTest {
 	@Before
 	public void setupMock() {
 		MockitoAnnotations.initMocks(this);
-		movie = new Movie(1, "POC", "good movie", "www.abc.com", "2015-03-23");
+		movie = new Movie(1, "POC", "good movie", "www.abc.com", "2015-03-23", "overview");
 		options = Optional.of(movie);
 	}
 	

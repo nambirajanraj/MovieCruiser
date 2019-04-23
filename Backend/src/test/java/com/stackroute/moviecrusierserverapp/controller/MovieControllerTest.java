@@ -54,9 +54,9 @@ public class MovieControllerTest {
 
 		mvc = MockMvcBuilders.standaloneSetup(controller).build();
 		movies = new ArrayList<>();
-		movie = new Movie(1, "POC", "good movie", "www.abc.com", "2015-03-23");
+		movie = new Movie(1, "POC", "good movie", "www.abc.com", "2015-03-23", "overview");
 		movies.add(movie);
-		movie = new Movie(2, "POC-2", "very good movie", "www.cde.com", "2015-09-23");
+		movie = new Movie(2, "POC-2", "very good movie", "www.cde.com", "2015-09-23", "overview");
 		movies.add(movie);
 	}
 
