@@ -4,42 +4,34 @@ import {RouterModule, Routes} from '@angular/router';
 import {MovieModule} from './modules/movie/movie.module';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import {MatButtonModule} from '@angular/material/button';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations' ;
-import {MatToolbarModule} from '@angular/material/toolbar';
-import {MatDialogModule} from '@angular/material/dialog';
 
-import {MatInputModule} from '@angular/material/input';
-import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
-import { FormGroup, FormControl, FormsModule, ReactiveFormsModule } from '@angular/forms';
-const appRoutes: Routes=[
+import { NgModule } from '@angular/core';
+import { SharedModule } from './modules/shared/shared.module';
+import { AuthenticationModule } from './modules/authentication/authentication.module';
+import { AuthGuardService } from './auth-guard.service';
+const appRoutes:Routes = [
 
   {
     path:'',
-    redirectTo:'movies',
-    pathMatch: 'full',
+    redirectTo: '/login',
+    pathMatch:'full'
   }
-
 ]
+
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
     BrowserModule,
-    MatButtonModule,
-    MatDialogModule,
-    FormsModule,
+    SharedModule,
+    AuthenticationModule,
     MovieModule,
-    MatInputModule,
     AppRoutingModule,
-    BrowserAnimationsModule,
-    MatToolbarModule,
-
     RouterModule.forRoot(appRoutes),
   ],
 
-  providers: [],
+  providers: [AuthGuardService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -22,7 +22,7 @@ export class MovieService {
     
     this.imagePrefix ="https://image.tmdb.org/t/p/w500/";
     this.watchListEndPoint="http://localhost:3000/watchList"
-    this.springEndPoint="http://localhost:8888/api/movie";
+    this.springEndPoint="http://localhost:8888/api/movieservice";
 
  }
 

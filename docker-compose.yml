@@ -1,9 +1,9 @@
-version: '2'
+version: '3.2'
 services:
   mysql:
    image: mysql:latest
    ports:
-     -"3306"
+     - "3306:3306"
    container_name: mysql-docker
    network_mode: host
    environment:
@@ -20,7 +20,8 @@ services:
     depends_on:
       -mysql
     ports:
-      -8888
+      - "8888:8888"
+
 
   angular:
     image: nambirajan389/moviecruiser:angular-image
