@@ -2,13 +2,13 @@
   <div class="login-block">
     <div class="row">
       <mat-form-field class="login-input-full-width">
-        <input matInput placeholder="User Id" [(ngModel)]="user.userId" name="userId" id="userId" required minlength="5" maxlength="10"
-          #userId="ngModel" class="inputId">
+        <input class="inputId" matInput placeholder="User Id" [(ngModel)]="user.userId" name="userId" id="userId" required minlength="5" maxlength="10"
+          #userId="ngModel" >
         <mat-error *ngIf="userId.invalid">User Id: must be minimum 5 and 10 characters long</mat-error>
       </mat-form-field>
       <mat-form-field class="login-input-full-width">
-        <input matInput placeholder="Password" type="password" [(ngModel)]="user.password" name="password" id="password" required
-          #password="ngModel" class="inputPass">
+        <input class="inputPass" matInput placeholder="Password" type="password" [(ngModel)]="user.password" name="password" id="password" required
+          #password="ngModel" >
         <mat-error *ngIf="password.invalid">Password is mandatory</mat-error>
       </mat-form-field>
     </div>

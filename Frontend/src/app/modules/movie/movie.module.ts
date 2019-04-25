@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule,CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {MovieRouterModule} from '../movie/movie.router.module';
 import { ThumbnailComponent } from './components/thumbnail/thumbnail.component';
